@@ -15,6 +15,8 @@ class FloatingCartWidget extends Widget
 
     public function run()
     {
-        return $this->render('');
+        FloatingCartAsset::register($this->view);
+
+        return $this->render('cart');
     }
 }
