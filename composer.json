@@ -2,6 +2,9 @@
   "name": "codexten/yii-floating-cart",
   "description": "Yii Floating Cart",
   "type": "library",
+  "require": {
+    "codexten/yii-web": "~2.0"
+  },
   "autoload": {
     "psr-4": {
       "codexten\\yii\\floatingCart\\": "src"
