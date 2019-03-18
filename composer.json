@@ -1,0 +1,19 @@
+{
+  "name": "codexten/yii-floating-cart",
+  "description": "Yii Floating Cart",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "codexten\\yii\\floatingCart\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "sconfig-plugin": {
+      "params": "src/config/params.php",
+      "mailer": "src/config/mailer.php"
+    }
+  }
+}
