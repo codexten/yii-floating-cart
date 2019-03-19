@@ -17,7 +17,9 @@ class FloatingCartAsset extends \yii\web\AssetBundle
         'js/main.js',
     ];
     public $css = [
-
+        'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700',
+        'css/reset.css',
+        'css/style.css',
     ];
     public $depends = [
         JqueryAsset::class,
