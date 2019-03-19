@@ -14,9 +14,8 @@
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "sconfig-plugin": {
-      "params": "src/config/params.php",
-      "mailer": "src/config/mailer.php"
+    "config-plugin": {
+      "aliases": "config/aliases.php"
     }
   }
 }
